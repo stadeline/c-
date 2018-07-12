@@ -1,0 +1,4 @@
+C:\Users\TagStart\Documents\Visual Studio 2010\Projects\Arithmetic Operators\Arithmetic Operators\bin\Debug\Arithmetic Operators.exe
+C:\Users\TagStart\Documents\Visual Studio 2010\Projects\Arithmetic Operators\Arithmetic Operators\bin\Debug\Arithmetic Operators.pdb
+C:\Users\TagStart\Documents\Visual Studio 2010\Projects\Arithmetic Operators\Arithmetic Operators\obj\x86\Debug\Arithmetic Operators.exe
+C:\Users\TagStart\Documents\Visual Studio 2010\Projects\Arithmetic Operators\Arithmetic Operators\obj\x86\Debug\Arithmetic Operators.pdb

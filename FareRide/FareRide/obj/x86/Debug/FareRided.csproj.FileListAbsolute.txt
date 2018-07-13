@@ -1,0 +1,4 @@
+C:\Users\TagStart\AppData\Local\Temporary Projects\FareRided\bin\Debug\FareRided.exe
+C:\Users\TagStart\AppData\Local\Temporary Projects\FareRided\bin\Debug\FareRided.pdb
+C:\Users\TagStart\AppData\Local\Temporary Projects\FareRided\obj\x86\Debug\FareRided.exe
+C:\Users\TagStart\AppData\Local\Temporary Projects\FareRided\obj\x86\Debug\FareRided.pdb

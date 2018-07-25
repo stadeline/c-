@@ -2,3 +2,5 @@ C:\Users\TagStart\Documents\Visual Studio 2010\Projects\FareRide\FareRide\bin\De
 C:\Users\TagStart\Documents\Visual Studio 2010\Projects\FareRide\FareRide\bin\Debug\FareRide.pdb
 C:\Users\TagStart\Documents\Visual Studio 2010\Projects\FareRide\FareRide\obj\x86\Debug\FareRide.exe
 C:\Users\TagStart\Documents\Visual Studio 2010\Projects\FareRide\FareRide\obj\x86\Debug\FareRide.pdb
+C:\Users\TagStart\Desktop\School\cs\FareRide\FareRide\obj\x86\Debug\FareRide.exe
+C:\Users\TagStart\Desktop\School\cs\FareRide\FareRide\obj\x86\Debug\FareRide.pdb

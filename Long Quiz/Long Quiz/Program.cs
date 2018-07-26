@@ -31,7 +31,7 @@ namespace Long_Quiz
 
             // NUMBER OF OT
             Console.Write("ENTER NUMBER OF OT: ");
-            decimal numberOfOT = int.Parse(Console.ReadLine());
+            decimal numberOfOT = decimal.Parse(Console.ReadLine());
 
             // TOTAL OT
             decimal totalOT = otRate * numberOfOT;
@@ -71,7 +71,9 @@ namespace Long_Quiz
             decimal gsis = decimal.Parse(Console.ReadLine());
 
             // TAX
-            decimal tax = 0.15m * grossPay;
+            // "M"stands for literal
+            // https://stackoverflow.com/questions/977484/what-does-the-m-stand-for-in-c-sharp-decimal-literal-notation
+            decimal tax = 0.15M * grossPay;
             Console.WriteLine("THE TAX is : " + tax);
 
             // TOTAL DEDUCTION

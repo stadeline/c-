@@ -8,3 +8,4 @@ C:\Users\TagStart\Desktop\School\cs\Long Quiz\Long Quiz\obj\x86\Debug\Long Quiz.
 C:\Users\TagStart\Desktop\School\cs\Long Quiz\Long Quiz\obj\x86\Debug\Long Quiz.pdb
 C:\Users\TagStart\Desktop\School\cs\Long Quiz\Long Quiz\bin\Debug\Long Quiz.exe
 C:\Users\TagStart\Desktop\School\cs\Long Quiz\Long Quiz\bin\Debug\Long Quiz.pdb
+C:\Users\TagStart\Desktop\School\cs\Long Quiz\Long Quiz\obj\x86\Debug\Long Quiz.csprojResolveAssemblyReference.cache

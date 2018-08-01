@@ -71,9 +71,7 @@ namespace Long_Quiz
             decimal gsis = decimal.Parse(Console.ReadLine());
 
             // TAX
-            // "M"stands for literal
-            // https://stackoverflow.com/questions/977484/what-does-the-m-stand-for-in-c-sharp-decimal-literal-notation
-            decimal tax = 0.15M * grossPay;
+            decimal tax = (decimal)0.15 * grossPay;
             Console.WriteLine("THE TAX is : " + tax);
 
             // TOTAL DEDUCTION

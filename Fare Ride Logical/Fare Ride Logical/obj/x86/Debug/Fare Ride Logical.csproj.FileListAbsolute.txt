@@ -1,0 +1,4 @@
+C:\Users\TagStart\AppData\Local\Temporary Projects\Fare Ride Logical\bin\Debug\Fare Ride Logical.exe
+C:\Users\TagStart\AppData\Local\Temporary Projects\Fare Ride Logical\bin\Debug\Fare Ride Logical.pdb
+C:\Users\TagStart\AppData\Local\Temporary Projects\Fare Ride Logical\obj\x86\Debug\Fare Ride Logical.exe
+C:\Users\TagStart\AppData\Local\Temporary Projects\Fare Ride Logical\obj\x86\Debug\Fare Ride Logical.pdb

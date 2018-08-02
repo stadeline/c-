@@ -17,8 +17,6 @@ namespace Fare_Ride_Logical
 
 
             // Selection Menu
-        PassengerSelectionMenu:
-            Console.Clear();
             Console.WriteLine("Enter type of passenger:");
             Console.WriteLine("\n\t (1) Senior");
             Console.WriteLine("\t (2) Student");
@@ -30,37 +28,23 @@ namespace Fare_Ride_Logical
             Console.SetCursorPosition(0, 6);
 
             // Set the variables based on the selected option.
-            // Similar to if (var == "") {
-            //  executeCode();
-            // }
-            switch (typeOfPassenger)
+            if (typeOfPassenger == "1" || typeOfPassenger == "senior" || typeOfPassenger == "Senior")
             {
-                // Variations of the selected option stacked.
-                case "1":
-                case "senior":
-                case "Senior":
-                    Console.WriteLine("Senior Selected\n");
-                    farePrice = 8;
-                    discount = (decimal).25;
-                    break;
-                case "2":
-                case "student":
-                case "Student":
-                    Console.WriteLine("Student Selected\n");
-                    farePrice = 8;
-                    discount = (decimal).20;
-                    break;
-                case "3":
-                case "regular":
-                case "Regular":
-                    Console.WriteLine("Regular Selected\n");
-                    farePrice = 9;
-                    discount = 0;
-                    break;
-                default:
-                    Console.WriteLine("You have entered a non-existant type of passenger. Press any key to try again.");
-                    Console.ReadKey();
-                    goto PassengerSelectionMenu;
+                Console.WriteLine("Senior Selected\n");
+                farePrice = 8;
+                discount = (decimal).25;
+            }
+            else if (typeOfPassenger == "2" || typeOfPassenger == "student" || typeOfPassenger == "Student")
+            {
+                Console.WriteLine("Student Selected\n");
+                farePrice = 8;
+                discount = (decimal).20;
+            }
+            else if (typeOfPassenger == "3" || typeOfPassenger == "regular" || typeOfPassenger == "Regular")
+            {
+                Console.WriteLine("Regular Selected\n");
+                farePrice = 9;
+                discount = 0;
             }
 
             // Other details
@@ -73,15 +57,15 @@ namespace Fare_Ride_Logical
             // Need to define the initial amount of fareRide first to determine the discounted amount?
             fareRide = numberOfKilometer * farePrice;
             // Then multiply it by the discount factor.
-            Console.WriteLine("Passenger discount is: " + ((decimal)discount).ToString("P") + " or " + ((decimal)discount * fareRide).ToString("F"));
+            Console.WriteLine("Passenger discount is: " + (decimal)discount * 100 + "% or " + (decimal)discount * fareRide);
 
             // Discounted Fare Ride?
             fareRide = fareRide - ((decimal)discount * fareRide);
-            Console.WriteLine("Your Fare Ride is: " + fareRide.ToString("F"));
+            Console.WriteLine("Your Fare Ride is: " + fareRide);
 
             // Total Fare Ride
             totalFareRide = fareRide * numberOfPassenger;
-            Console.Write("Total Fare Ride is: " + totalFareRide.ToString("F"));
+            Console.Write("Total Fare Ride is: " + totalFareRide);
 
             Console.ReadKey();
 

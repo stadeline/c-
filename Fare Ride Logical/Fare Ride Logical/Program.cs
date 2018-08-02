@@ -7,6 +7,17 @@ namespace Fare_Ride_Logical
 {
     class Program
     {
+
+        // Input Validation
+        static public string ValidateInput(string input)
+        {
+
+            Console.Clear();
+            Console.WriteLine("Function");
+            return "0";
+        }
+
+
         static void Main(string[] args)
         {
 

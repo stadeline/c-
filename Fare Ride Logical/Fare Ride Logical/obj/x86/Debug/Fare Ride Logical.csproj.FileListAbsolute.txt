@@ -2,3 +2,8 @@ C:\Users\TagStart\AppData\Local\Temporary Projects\Fare Ride Logical\bin\Debug\F
 C:\Users\TagStart\AppData\Local\Temporary Projects\Fare Ride Logical\bin\Debug\Fare Ride Logical.pdb
 C:\Users\TagStart\AppData\Local\Temporary Projects\Fare Ride Logical\obj\x86\Debug\Fare Ride Logical.exe
 C:\Users\TagStart\AppData\Local\Temporary Projects\Fare Ride Logical\obj\x86\Debug\Fare Ride Logical.pdb
+C:\Users\TagStart\Desktop\School\cs\Fare Ride Logical\Fare Ride Logical\obj\x86\Debug\Fare Ride Logical.exe
+C:\Users\TagStart\Desktop\School\cs\Fare Ride Logical\Fare Ride Logical\obj\x86\Debug\Fare Ride Logical.pdb
+C:\Users\TagStart\Desktop\School\cs\Fare Ride Logical\Fare Ride Logical\bin\Debug\Fare Ride Logical.exe
+C:\Users\TagStart\Desktop\School\cs\Fare Ride Logical\Fare Ride Logical\bin\Debug\Fare Ride Logical.pdb
+C:\Users\TagStart\Desktop\School\cs\Fare Ride Logical\Fare Ride Logical\obj\x86\Debug\Fare Ride Logical.csprojResolveAssemblyReference.cache

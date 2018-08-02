@@ -17,6 +17,8 @@ namespace Fare_Ride_Logical
 
 
             // Selection Menu
+        PassengerSelectionMenu:
+            Console.Clear();
             Console.WriteLine("Enter type of passenger:");
             Console.WriteLine("\n\t (1) Senior");
             Console.WriteLine("\t (2) Student");
@@ -55,6 +57,10 @@ namespace Fare_Ride_Logical
                     farePrice = 9;
                     discount = 0;
                     break;
+                default:
+                    Console.WriteLine("You have entered a non-existant type of passenger. Press any key to try again.");
+                    Console.ReadKey();
+                    goto PassengerSelectionMenu;
             }
 
             // Other details
@@ -67,15 +73,15 @@ namespace Fare_Ride_Logical
             // Need to define the initial amount of fareRide first to determine the discounted amount?
             fareRide = numberOfKilometer * farePrice;
             // Then multiply it by the discount factor.
-            Console.WriteLine("Passenger discount is: " + (decimal)discount * 100 + "% or " + (decimal)discount * fareRide);
+            Console.WriteLine("Passenger discount is: " + ((decimal)discount).ToString("P") + " or " + ((decimal)discount * fareRide).ToString("F"));
 
             // Discounted Fare Ride?
             fareRide = fareRide - ((decimal)discount * fareRide);
-            Console.WriteLine("Your Fare Ride is: " + fareRide);
+            Console.WriteLine("Your Fare Ride is: " + fareRide.ToString("F"));
 
             // Total Fare Ride
             totalFareRide = fareRide * numberOfPassenger;
-            Console.Write("Total Fare Ride is: " + totalFareRide);
+            Console.Write("Total Fare Ride is: " + totalFareRide.ToString("F"));
 
             Console.ReadKey();
 

@@ -46,6 +46,9 @@ namespace Fare_Ride_Logical
                 farePrice = 9;
                 discount = 0;
             }
+            else {
+                Console.WriteLine("Out of Range\n");            
+            }
 
             // Other details
             Console.Write("Enter No. of Kilometer:");

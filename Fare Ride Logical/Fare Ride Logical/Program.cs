@@ -12,7 +12,7 @@ namespace Fare_Ride_Logical
         // Center the cursor.
         public void centerCursor()
         {
-            Console.SetCursorPosition(Console.WindowWidth / 2, Console.CursorTop);
+            Console.SetCursorPosition(Console.WindowWidth / 2 - 10, Console.CursorTop);
         }
         // Write
         public void centerText(string stream)
